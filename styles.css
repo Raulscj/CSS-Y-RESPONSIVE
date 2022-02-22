@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* GENERALES */
 .btn{
     background-color: #000000;
     font-family: lato;
@@ -14,6 +15,22 @@
     padding-left: 0.8rem;
     padding-right: 0.8rem;
 }
+.art{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+    .art h6{
+        font-size: samll;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .art p{
+        font-size: smaller;
+        letter-spacing: 0.1rem;
+    }
+/* ESQUEMA */
 .principal{
     background-color: black;
     display: flex;
@@ -100,8 +117,23 @@
                 align-self: flex-end;
             }
     .Favorites{
-        background-color: red;
+        background-color:rgb(228, 230, 232) ;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
+        .Favorites h2{
+            width: 100%;
+            text-align: center;
+            padding: 4rem;
+            letter-spacing: 0.2rem;
+        }
+        .objects{
+            display: flex;
+            justify-content: space-evenly;
+            padding-bottom: 2rem;
+            flex-wrap: wrap;
+        }
     .two-columns{
         background-color: #FFF1CE;
     }
@@ -109,5 +141,5 @@
         background-color: #D29D2B;
     }
     .footer{
-        background-color: yellow;
+        background-color:white;
     }
