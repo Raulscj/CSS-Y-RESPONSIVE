@@ -254,3 +254,39 @@
             padding: 0 0.5rem;
         }
 /* Responsive */
+@media all and (max-width:810px){
+    .mensaje p{
+        font-size: 0.5rem;
+    }
+    .navegacion figure img{
+        width: 3rem;
+    }
+    
+    .portada{
+        padding-bottom: 2rem;
+    }
+    
+    .portada figure img{
+        align-self: center;
+        width: 16rem;
+    }
+    .titulo{
+        height: 16rem;
+    }
+        .titulo h1{
+            text-align: center;
+            font-size: x-large;
+        }
+        .titulo p{
+            align-self: center;
+            font-size: 0.5rem;
+            letter-spacing: 0.1rem;
+        }
+    .portada .figure img{
+        width: 10rem;
+    }
+    .btn{
+        font-size: 0.65rem;
+    }
+    
+}
