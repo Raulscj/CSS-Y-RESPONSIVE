@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.principal{
+    background-color: black;
+    display: flex;
+    flex-flow: column nowrap;
+}
+    .header{
+        background-color: green;
+        display: flex;
+        flex-direction: column;
+    }
+        .mensaje{
+            background-color: black;
+            color: white;
+            letter-spacing: 0.2rem;
+            text-align: center;
+            padding: 1.2rem;
+        }
+            .mensaje > p{
+                font-size: 0.6rem;
+            }
+        .navegacion{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 1rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+            
+        .portada{
+
+        }
+
+    .Favorites{
+        background-color: red;
+    }
+    .two-columns{
+        background-color: #FFF1CE;
+    }
+    .all_product{
+        background-color: #D29D2B;
+    }
+    .footer{
+        background-color: yellow;
+    }
