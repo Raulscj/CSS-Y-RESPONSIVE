@@ -117,7 +117,7 @@
                 align-self: flex-end;
             }
     .Favorites{
-        background-color:rgb(228, 230, 232) ;
+        background-color:rgb(228, 230, 232);
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -135,8 +135,19 @@
             flex-wrap: wrap;
         }
     .two-columns{
-        background-color: #FFF1CE;
+        background-color:rgb(228, 230, 232);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
+        .two-columns .col{
+            background-color: white;
+            width: 30%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 4rem;
+        }
     .all_product{
         background-color: #D29D2B;
     }
