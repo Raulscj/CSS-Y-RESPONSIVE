@@ -180,5 +180,77 @@
             margin-bottom: 2rem;
         }
     .footer{
+        display: flex;
+        padding-top: 3rem;
         background-color:white;
+        flex-wrap: wrap;
     }
+        .footer h4{
+            letter-spacing: 0.25rem;
+            padding-bottom: 0.4rem;
+        }    
+        .footer p{
+            color: gray;
+            font-size: small;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .logo_footer{
+            margin-left: 4rem;
+            margin-right: 4rem;
+        }
+            .logo_footer figure img{
+                width: 7rem;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            margin-right: 2rem;
+        }
+            
+            .form .textt{
+                margin-top:  1rem;
+                margin-bottom: 1rem;
+                color: gray;
+                width: 100%;
+            }
+        .support{
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+        .info{
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+            .info li{
+                font-size: small;
+                padding: 0.2rem;
+                color: gray;
+            }
+        .social ul{
+            margin-left: 4rem;
+            display: flex;
+            padding: 0.5rem;
+        }
+        .social ul li{
+            padding: 0 0.1rem;
+            font-size: 3rem;
+        }
+        .col2{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 1.5rem;
+        }
+        .byfor{
+            margin-top: 2rem;
+        }
+        .icons ul{
+            display: flex;
+            margin-top: 2rem;
+        }
+        .icons ul li{
+            padding: 0 0.5rem;
+        }
+/* Responsive */
