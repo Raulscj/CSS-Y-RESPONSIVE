@@ -288,5 +288,50 @@
     .btn{
         font-size: 0.65rem;
     }
-    
+    .two-columns .col{
+        width: 32%;
+        display: flex;
+        flex-direction: column;
+    }
+        .footer h4{
+            letter-spacing: 0.2rem;
+            padding-bottom: 0.4rem;
+        }    
+        .footer p{
+            color: gray;
+            font-size: small;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .logo_footer{
+            margin-left:2rem ;
+            margin-right: 2rem;
+        }
+        .logo_footer figure img{
+            width: 3rem;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            margin-right: 2rem;
+            width: min-content;
+        }
+            .form .textt{
+                margin-top:  1rem;
+                margin-bottom: 1rem;
+                color: gray;
+                width: 100%;
+            }
+            .social ul li{
+            padding: 0 0.1rem;
+            font-size: 1.5rem;
+        }
+        .icons ul{
+            display: flex;
+            margin-top: 1.5rem;
+        }
+        .icons ul li{
+            padding: 0 0.45rem;
+        }
 }
