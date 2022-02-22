@@ -31,6 +31,18 @@
         font-size: smaller;
         letter-spacing: 0.1rem;
     }
+    .art figure{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: white;
+        height: 16rem;
+        width: 16rem;
+    }
+        .art figure img{
+            display: flex;
+            align-self: center;
+        }
 /* ESQUEMA */
 .principal{
     background-color: black;
@@ -152,9 +164,10 @@
     .all_product{
         background-color:rgb(228, 230, 232);
     }
-        .all_product h3{
+        .all_product h2{
             text-align: center;
-            padding-bottom: 2rem ;
+            padding-bottom: 2rem;
+            letter-spacing: 0.2rem;
         }
         .all_product .products{
             display: flex;
@@ -163,7 +176,7 @@
             align-items: center;
         }
         .all_product button{
-            margin-left: 50%;
+            margin-left: 43%;
             margin-bottom: 2rem;
         }
     .footer{
