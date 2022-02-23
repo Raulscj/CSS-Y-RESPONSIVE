@@ -103,6 +103,9 @@
                 display: flex;
                 align-self: center;
             }
+            .texto p{
+                width: 10rem;
+            }
             .portada button{
                 align-self: flex-end;
             }
@@ -313,5 +316,136 @@
         }
         .icons ul li{
             padding: 0 0.45rem;
+        }
+}
+/* MOBILE */
+@media all and (max-width:412px){
+    .mensaje p{
+        font-size: 0.4rem;
+    }
+    .navegacion figure img{
+        width: 2rem;
+    }
+    .navegacion .menu a{
+        font-size: 0.6rem;
+        padding: 0 0.3rem;
+    }
+    .navegacion .menu button{
+        font-size: 0.6rem;
+        padding: 0 0.3rem;
+    }
+    .portada{
+        padding-bottom: 0.5rem;
+    }
+    .texto{
+        font-size: 0.5rem;
+    }
+    .texto p{
+        width: 6rem;
+    }
+    .portada figure{
+        height: 10rem;
+        margin-right: 0.5rem;
+    }
+    .portada figure img{
+        align-self: center;
+        width: 6.5rem;
+        padding: 0;
+    }
+    .titulo{
+        height: 10rem;
+    }
+        .titulo h1{
+            font-size: medium;
+        }
+        .titulo p{
+            align-self: center;
+            font-size: 0.3rem;
+            letter-spacing: 0.09rem;
+        }
+        .portada .figure figure img{
+            width: 4rem;
+        }
+        .portada .figure figure{
+            display: flex;
+            flex-direction:column-reverse ;
+            margin-bottom: 1rem;
+            margin-right: 2rem;
+        }
+    .btn{
+        font-size: 0.4rem;
+    }
+    .Favorites h2{
+        padding: 2rem;
+        letter-spacing: 0.1rem;
+        font-size: 1rem;
+    }
+        .art h6{
+            font-size: 0.8rem;
+        }
+        .art p{
+            font-size: 0.5rem;
+            letter-spacing: 0.09rem;
+        }
+        .art figure{
+            height: 14rem;
+            width: 14rem;
+        }
+            .art figure img{
+                width: 8rem;
+            }
+            .all_product button{
+                margin-left: 39%;
+            }
+            .two-columns{
+                display: flex;
+                flex-direction: column;
+            }
+            .two-columns .col{
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+            .col h2{
+                font-size: 1rem;
+            }
+            .col figure img{
+                width: 7rem;
+            }
+        .logo_footer{
+            margin-left:1rem ;
+            margin-right: 1rem;
+        }
+        .logo_footer figure img{
+            width: 2rem;
+        }
+        .form{
+            margin-left: 1.5rem;
+            width: min-content;
+        }
+        .support{
+            margin-left: 1rem;
+        }
+        .info{
+            margin-left: 5.5rem;
+            margin-top: 1rem;
+        }
+        .social ul li{
+            padding: 0 0.1rem;
+            font-size: 1.2rem;
+        }
+        .col2{
+            display: flex;
+            flex-direction: column;
+        }
+        .byfor p{
+            text-align: center;
+            font-size: 0.6rem;
+        }
+        .icons ul{
+            justify-content: center;
+        }
+        .icons ul li{
+            font-size: 1rem;
+            padding: 0 0.3rem;
         }
 }
